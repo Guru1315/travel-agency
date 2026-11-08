@@ -98,21 +98,8 @@ All taken from the live deployment at 1600 × 1000.
 
 Full details are in **[HOW-IT-WORKS.md](HOW-IT-WORKS.md)**.
 
-## 💬 How it was built
-
-Rebuilt with Claude Code, starting with:
-
-```text
-/clone-website https://github.com/alagappan567/travel-agency
-```
-
 **[HOW-IT-WAS-BUILT.md](HOW-IT-WAS-BUILT.md)** lists every prompt word for word, with what each one did: reading the reference, porting it, fixing what broke on phones, testing, and deploying.
 
 This repo holds the showcase only: screenshots, recordings and write-ups. The site's source code isn't included.
-
-## 🙏 Credits
-
-- Design, copy, photos and frame sequence come from **[alagappan567/travel-agency](https://github.com/alagappan567/travel-agency)**. This is an independent rebuild of that repo's page.
-- Built with [Claude Code](https://claude.com/claude-code).
 
 > **Concept site.** Movade is a fictional travel agency. Search, booking, sign-up and the newsletter are demos: they show a message, and nothing is booked or sent.
