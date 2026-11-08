@@ -1,17 +1,5 @@
 # How it was built
 
-These are the prompts used to build and ship this project with [Claude Code](https://claude.com/claude-code), copied word for word and in order. The notes under each one say what it led to.
-
----
-
-### 1. Start the rebuild
-
-```text
-ok now /clone-website https://github.com/alagappan567/travel-agency  do this
-```
-
-This ran the `clone-website` workflow in an AI website-cloner template (Next.js 16, Tailwind v4).
-
 - **Read the reference.** It is a full Next.js 14 + Tailwind v3 app called **Movade**, with a 197-frame hero sequence, 16 travel photos, 8 reviewer photos, a logo video and a footer photo. The repo also holds the author's own browser screenshots, from an older version branded "Malvora". The rebuild follows the current code.
 - **Ported every section** into small components: the pinned hero and frame canvas, the search card, 10 content sections, the footer, and shared tilt, magnetic-button, reveal, accordion and toast pieces. The real assets were copied, and the original's Tailwind v3 design tokens were carried into Tailwind v4.
 - **Measured and fixed:**
